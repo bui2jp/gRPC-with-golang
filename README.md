@@ -44,7 +44,9 @@ server
 go run greeter_server/main.go
 ```
 
-clientを実行 (serverとは別のTerminalで実行)
+client (serverとは別のTerminalで実行)
 ```
 go run greeter_client/main.go
-```
+``
+server側のterminalでメッセージを確認できる
+
