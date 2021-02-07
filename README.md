@@ -51,7 +51,7 @@ go run greeter_server/main.go
 client (serverとは別のTerminalで実行)
 ```
 go run greeter_client/main.go
-``
+```
 server側のterminalでメッセージを確認できる
 
 ## Unary x Streaming
