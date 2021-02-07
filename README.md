@@ -8,24 +8,7 @@ https://grpc.io/docs/languages/go/quickstart/
 golangでgRPCを試す（Dockerを利用)
 ```
 
-## Unary x Streaming
-
-ストリーミングにも対応しているので試してみる
-
-````
-https://grpc.io/docs/what-is-grpc/core-concepts/
-Unary RPC
-Server streaming RPC
-Client streaming RPC
-Bidirectional streaming RPC
-```
-
-Web Frontend (Javascript)
-```
-https://github.com/grpc/grpc-web
-```
-
-## Docker
+## Docker env
 ```
 docker run --rm --name grpc-test -v $PWD:/root -w /root -it golang:1.14.13 bash
 docker run --rm --name grpc-test -v $PWD:/root -w /root golang:1.14.13 go version
@@ -70,3 +53,20 @@ client (serverとは別のTerminalで実行)
 go run greeter_client/main.go
 ``
 server側のterminalでメッセージを確認できる
+
+## Unary x Streaming
+
+ストリーミングにも対応しているので試してみる
+
+```
+https://grpc.io/docs/what-is-grpc/core-concepts/
+Unary RPC
+Server streaming RPC
+Client streaming RPC
+Bidirectional streaming RPC
+```
+
+Web Frontend (Javascript)
+```
+https://github.com/grpc/grpc-web
+```
